@@ -1,0 +1,19 @@
+{
+  "name": "weback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadFarmer101/webpack-bundle-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadFarmer101/webpack-bundle-practice/issues"
+  },
+  "homepage": "https://github.com/MadFarmer101/webpack-bundle-practice#readme"
+}
