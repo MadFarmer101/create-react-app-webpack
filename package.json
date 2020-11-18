@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MadFarmer101/webpack-bundle-practice/issues"
   },
-  "homepage": "https://github.com/MadFarmer101/webpack-bundle-practice#readme"
+  "homepage": "https://github.com/MadFarmer101/webpack-bundle-practice#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
