@@ -1,4 +1,5 @@
 const path = require("path");
+const autoprefixer = require("autoprefixer");
 
 module.exports = {
   mode: "development",
@@ -34,6 +35,7 @@ module.exports = {
             loader: "postcss-loader",
             options: {
               ident: "postcss",
+              plugins: () => [autoprefixer()],
             },
           },
         ],
