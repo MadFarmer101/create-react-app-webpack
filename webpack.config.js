@@ -30,6 +30,12 @@ module.exports = {
               },
             },
           },
+          {
+            loader: "postcss-loader",
+            options: {
+              ident: "postcss",
+            },
+          },
         ],
       },
     ],
