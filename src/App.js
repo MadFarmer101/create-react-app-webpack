@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
-import Users from "../src/components/containers/Users";
-import AsyncComponent from "../src/components/hoc/AsyncComponent";
+import Users from "./components/containers/Users";
+import AsyncComponent from "./components/hoc/AsyncComponent/AsyncComponent";
 
 const asyncPizza = AsyncComponent(() => {
   return import('./components/containers/Pizza')
